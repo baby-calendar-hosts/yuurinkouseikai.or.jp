@@ -142,6 +142,7 @@
   "require": {
     "php": ">=7.4",
     "composer/installers": "^2.2",
+    "ffraenz/private-composer-installer": "*",
     "humanmade/s3-uploads": "^3.0",
     "koodimonni-language/core-ja": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
