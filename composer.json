@@ -202,7 +202,6 @@
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/my-calendar": "*",
     "wpackagist-plugin/post-types-order": "*",
-    "wpackagist-plugin/recaptcha-for-mw-wp-form": "*",
     "wpackagist-plugin/reusable-blocks-extended": "*",
     "wpackagist-plugin/seo-simple-pack": "*",
     "wpackagist-plugin/show-current-template": "*",
