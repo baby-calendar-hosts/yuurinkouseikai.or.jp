@@ -36,19 +36,27 @@ $ git remote add upstream git@github.com:baby-calendar-hosts/wordpress.git
 $ git push
 ```
 
-### 3. composer設定
+### 3. composer
 
-`.env`を生成する。
+ACF Proプラグインダウンロードのため `auth.json` を作成する。
 
-```ShellSession
-$ vi .env
-====
-ACF_KEY: 〜〜〜〜
+[auth.jsonテンプレート](https://drive.google.com/open?id=12JYSFS16pFdMSyAzKwP8vLPXFOu0d2D-)
 
+`auth.json`書式
+
+```json
+{
+  "http-basic": {
+    "connect.advancedcustomfields.com": {
+      "username": "{{ ACF Pro License Key}}",
+      "password": "{{ SITE URL }}"
+    }
+  }
+}
 ```
 
 ```ShellSession
-$ composer install --no-dev
+$ composer install
 $ git add composer.lock
 $ git commit -m "Composer update."
 $ git push
