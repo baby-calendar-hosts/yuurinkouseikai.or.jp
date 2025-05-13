@@ -202,6 +202,7 @@
     "wpackagist-plugin/limit-login-attempts-reloaded": "*",
     "wpackagist-plugin/my-calendar": "3.5.21",
     "wpackagist-plugin/post-types-order": "*",
+    "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/reusable-blocks-extended": "*",
     "wpackagist-plugin/seo-simple-pack": "*",
     "wpackagist-plugin/show-current-template": "*",
